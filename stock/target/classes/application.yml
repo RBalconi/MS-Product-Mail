@@ -1,0 +1,21 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: stock
+  data:
+    mongodb:
+      authentication-database: admin
+      database: stock
+      host: localhost
+      port: 27017
+      username: root
+      password: password
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true
