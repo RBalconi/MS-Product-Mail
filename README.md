@@ -1,0 +1,1 @@
+Project maked to learn the base of development of MicroService, was ignored design pattern and etc.
